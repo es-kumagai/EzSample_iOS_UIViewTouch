@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B145429016A3B640004DA3C4 /* EzSampleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B145428F16A3B640004DA3C4 /* EzSampleBaseView.m */; };
+		B145429516A3DDB2004DA3C4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B145429416A3DDB2004DA3C4 /* MainStoryboard_iPad.storyboard */; };
 		B1B5508216A2DDB20022AEAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B5508116A2DDB20022AEAC /* UIKit.framework */; };
 		B1B5508416A2DDB20022AEAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B5508316A2DDB20022AEAC /* Foundation.framework */; };
 		B1B5508616A2DDB20022AEAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B5508516A2DDB20022AEAC /* CoreGraphics.framework */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		B145428E16A3B640004DA3C4 /* EzSampleBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EzSampleBaseView.h; sourceTree = "<group>"; };
 		B145428F16A3B640004DA3C4 /* EzSampleBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EzSampleBaseView.m; sourceTree = "<group>"; };
+		B145429416A3DDB2004DA3C4 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		B1971BDA16A3A82C0034BCD0 /* EzSampleViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EzSampleViewDelegate.h; sourceTree = "<group>"; };
 		B1B5507D16A2DDB20022AEAC /* EzSample_iOS_UIViewTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzSample_iOS_UIViewTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B5508116A2DDB20022AEAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -93,6 +95,7 @@
 				B1B5509016A2DDB20022AEAC /* EzSampleAppDelegate.h */,
 				B1B5509116A2DDB20022AEAC /* EzSampleAppDelegate.m */,
 				B1B5509916A2DDB20022AEAC /* MainStoryboard.storyboard */,
+				B145429416A3DDB2004DA3C4 /* MainStoryboard_iPad.storyboard */,
 				B1B5509C16A2DDB20022AEAC /* EzSampleViewController.h */,
 				B1B5509D16A2DDB20022AEAC /* EzSampleViewController.m */,
 				B1B550A416A2DDC70022AEAC /* EzSampleView.h */,
@@ -176,6 +179,7 @@
 				B1B5509616A2DDB20022AEAC /* Default@2x.png in Resources */,
 				B1B5509816A2DDB20022AEAC /* Default-568h@2x.png in Resources */,
 				B1B5509B16A2DDB20022AEAC /* MainStoryboard.storyboard in Resources */,
+				B145429516A3DDB2004DA3C4 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +276,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EzSample_iOS_UIViewTouch/EzSample_iOS_UIViewTouch-Prefix.pch";
 				INFOPLIST_FILE = "EzSample_iOS_UIViewTouch/EzSample_iOS_UIViewTouch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -283,7 +289,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EzSample_iOS_UIViewTouch/EzSample_iOS_UIViewTouch-Prefix.pch";
 				INFOPLIST_FILE = "EzSample_iOS_UIViewTouch/EzSample_iOS_UIViewTouch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
