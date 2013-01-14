@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B145429016A3B640004DA3C4 /* EzSampleBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B145428F16A3B640004DA3C4 /* EzSampleBaseView.m */; };
 		B1B5508216A2DDB20022AEAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B5508116A2DDB20022AEAC /* UIKit.framework */; };
 		B1B5508416A2DDB20022AEAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B5508316A2DDB20022AEAC /* Foundation.framework */; };
 		B1B5508616A2DDB20022AEAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B5508516A2DDB20022AEAC /* CoreGraphics.framework */; };
@@ -18,9 +19,13 @@
 		B1B5509816A2DDB20022AEAC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1B5509716A2DDB20022AEAC /* Default-568h@2x.png */; };
 		B1B5509B16A2DDB20022AEAC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B5509916A2DDB20022AEAC /* MainStoryboard.storyboard */; };
 		B1B5509E16A2DDB20022AEAC /* EzSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B5509D16A2DDB20022AEAC /* EzSampleViewController.m */; };
+		B1B550A616A2DDC70022AEAC /* EzSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B550A516A2DDC70022AEAC /* EzSampleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B145428E16A3B640004DA3C4 /* EzSampleBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EzSampleBaseView.h; sourceTree = "<group>"; };
+		B145428F16A3B640004DA3C4 /* EzSampleBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EzSampleBaseView.m; sourceTree = "<group>"; };
+		B1971BDA16A3A82C0034BCD0 /* EzSampleViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EzSampleViewDelegate.h; sourceTree = "<group>"; };
 		B1B5507D16A2DDB20022AEAC /* EzSample_iOS_UIViewTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzSample_iOS_UIViewTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B5508116A2DDB20022AEAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B1B5508316A2DDB20022AEAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +42,8 @@
 		B1B5509A16A2DDB20022AEAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		B1B5509C16A2DDB20022AEAC /* EzSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EzSampleViewController.h; sourceTree = "<group>"; };
 		B1B5509D16A2DDB20022AEAC /* EzSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EzSampleViewController.m; sourceTree = "<group>"; };
+		B1B550A416A2DDC70022AEAC /* EzSampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EzSampleView.h; sourceTree = "<group>"; };
+		B1B550A516A2DDC70022AEAC /* EzSampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EzSampleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +95,11 @@
 				B1B5509916A2DDB20022AEAC /* MainStoryboard.storyboard */,
 				B1B5509C16A2DDB20022AEAC /* EzSampleViewController.h */,
 				B1B5509D16A2DDB20022AEAC /* EzSampleViewController.m */,
+				B1B550A416A2DDC70022AEAC /* EzSampleView.h */,
+				B1B550A516A2DDC70022AEAC /* EzSampleView.m */,
+				B1971BDA16A3A82C0034BCD0 /* EzSampleViewDelegate.h */,
+				B145428E16A3B640004DA3C4 /* EzSampleBaseView.h */,
+				B145428F16A3B640004DA3C4 /* EzSampleBaseView.m */,
 				B1B5508816A2DDB20022AEAC /* Supporting Files */,
 			);
 			path = EzSample_iOS_UIViewTouch;
@@ -177,6 +189,8 @@
 				B1B5508E16A2DDB20022AEAC /* main.m in Sources */,
 				B1B5509216A2DDB20022AEAC /* EzSampleAppDelegate.m in Sources */,
 				B1B5509E16A2DDB20022AEAC /* EzSampleViewController.m in Sources */,
+				B1B550A616A2DDC70022AEAC /* EzSampleView.m in Sources */,
+				B145429016A3B640004DA3C4 /* EzSampleBaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +307,7 @@
 				B1B550A316A2DDB20022AEAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
